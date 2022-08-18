@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #F9F7F7;
+}
+
+.intro {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #F9F7F7;
+}
+
+nav{
+  background-color: #3F72AF;
+  background-image: linear-gradient(to bottom right, #1C3879, #607EAA);
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 10px 10px 0px;
+}
+
+
+.logo{
+  float: left;
+  color: #DBE2EF;
+  font-size: 40px;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+span{
+  color: ;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+nav ul li a{
+  color: #DBE2EF;
+  text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #DBE2EF;
+    color: #3F72AF;
+}
+.logovideo{
+  display: block;
+  border-radius: 100%;
+  margin: 25px auto 15px;
+  height: 300px;
+  width: 300px;
+  align-items: center;
+}
+
+#contact{
+  font-size: 20px;
+  align-items: flex-start;
+  text-align: center;
+  color: #1C3879;
+  margin: auto;
+}
+
+.detail {
+  margin: 30px auto 80px;
+  text-align: center;
+}
+
+.detail h1{
+  font-size: 40px;
+  color: #1C3879;
+  font-family: 'Cinzel', serif;
+
+}
+
+.detail p::first-line{
+    text-indent: 50px;
+    line-height: 30px;
+}
+
+.detail p {
+  color: #607EAA;
+  font-family: 'Eczar', serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.detail a{
+  background: #371B58;
+  border-radius: 10px;
+  color: #DBE2EF;
+  display: inline;
+  font-weight: bold;
+  line-height: 50px;
+  padding: 10px 20px;
+  text-decoration: underline;
+}
+
+.detail a:hover{
+  background-color: #DBE2EF;
+  color: #371B58;
+}
+
+.about{
+  padding: 80px 50px;
+  text-align: center;
+}
+
+.about h1{
+  color: #1C3879;
+  line-height: 50px;
+  text-align: center;
+}
+
+.about p{
+  color: #607EAA;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.about a{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 50px;
+  padding: 10px 20px;
+  border-style: solid;
+ border-width : 2px 2px 2px 2px;
+  border-radius: 10px;
+  background-color: #1C3879;
+  color: #DBE2EF;
+  text-decoration: none;
+  text-align: center;
+  transition: transform .4s;
+}
+.about a:hover{
+  background-color: #DBE2EF;
+  color: #1C3879;
+  transform: scale(1.2);
+}
+.experience h2{
+  color: #1C3879;
+  line-height: 50px;
+  padding-top: 30px;
+  text-align: center;
+}
+.experience ul li{
+  color: #607EAA;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  margin-left: 30px;
+}
+.skillpage {
+  margin: 30px auto 100px;
+  text-align: center;
+}
+.skillpage h1{
+  color: #1C3879;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.skills{
+  display: flex;
+  padding: 5px;
+ align-items: center;
+}
+
+.frame {
+  width: 18%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-left: 25px;
+}
+
+.caption {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-family: 'Eczar', serif;
+}
+
+.skillpage a{
+  background: #371B58;
+  border-radius: 10px;
+  color: #DBE2EF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 50px;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 200px;
+}
+
+.skillpage a:hover{
+  background-color: #DBE2EF;
+  color: #371B58;
+}
